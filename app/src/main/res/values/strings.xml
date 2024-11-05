@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GitHub User Search</string>
+    <string name="search_button">Search</string>
+    <string name="search_input">Enter a GitHub user id</string>
+    <string name="back_navigation_button">Back</string>
+    <string name="error_message">An error occurred</string>
+    <string name="repo_updated_at">Updated</string>
+    <string name="repo_star_count">Stars</string>
+    <string name="repo_fork_count">Forks</string>
+    <string name="all_repos_fork_count">All repos fork count</string>
+</resources>
