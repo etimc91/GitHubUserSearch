@@ -41,7 +41,7 @@ fun UserSearchScreen(
 
         when {
             searchState.value.isLoading -> LoadingIndicator()
-            searchState.value.error.isNotEmpty() -> ErrorText(searchState.value.error)
+            searchState.value.error?.isNotEmpty() == true -> ErrorText(searchState.value.error!!)
             else -> searchState.value.user?.let { user ->
                 UserInfo(
                     navController, user
